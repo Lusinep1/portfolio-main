@@ -1,0 +1,32 @@
+/*image, technologies used*/
+.img-custom {
+	border-radius: 2%;
+}
+.img-custom:hover {
+	transform: scale(1.009);
+}
+/*back to projects*/
+.backto {
+	transition: margin-right .3s, color .3s;
+}
+.backto:hover {
+	margin-right: .5em;
+	cursor: pointer;
+	color: #373a3c;
+}
+/*Overview*/
+#overview {
+	background-color: #484848;
+}
+/*red left-borer of overview*/
+@media only screen and (min-width: 768px) {
+	.bordery {
+		border-left: 3px solid #ba181b;
+		height: fit-content;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.bordery {
+		border: none;
+	}
+}
